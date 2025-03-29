@@ -18,4 +18,25 @@
     <string name="notification_bell">notification bell</string>
     <string name="user_icon">user</string>
     <string name="search">search</string>
+    <string name="signal">signal</string>
+    <string name="phone">phone</string>
+    <string name="text">text</string>
+    <string name="walkie_talkie">walkie_talkie</string>
+    <string name="call">call</string>
+    <string name="app_header">App Header</string>
+    <string name="message">message</string>
+    <string name="activity_date">01/22/25</string>
+    <string name="activity_duration">00:00</string>
+    <string name="activity_state">state</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="phone_num">Phone#</string>
+    <string name="message_prompt">Type a message</string>
+    <string name="send">Send</string>
+    <string-array name="roles_array">
+        <item>Admin</item>
+        <item>Employee</item>
+        <item>Manager</item>
+    </string-array>
 </resources>

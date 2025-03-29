@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SignalWave" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SignalWave" parent="Theme.AppCompat.Light.DarkActionBar" />
+        <item name="colorPrimaryDark" type="drawable">@color/navy_blue</item>
+        <item name="colorPrimary" type="drawable">@color/teal</item>
+        <item name="colorSecondary" type="drawable">@color/grey</item>
+
 </resources>
