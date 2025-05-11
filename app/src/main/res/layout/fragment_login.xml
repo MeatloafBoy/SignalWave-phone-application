@@ -3,7 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/navy_blue"
     android:gravity="center">
 
     <!-- Wrapper LinearLayout for layout weighting -->
@@ -14,7 +13,6 @@
 
         <!-- Container for the login form -->
         <LinearLayout
-            android:id="@+id/loginPage"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -22,12 +20,22 @@
             android:padding="16dp"
             android:background="@drawable/login_background">
 
+            <!-- Name Input -->
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="John Smith"
+                android:hint="@string/name_hint"
+                android:inputType="textCapWords"
+                android:padding="12dp" />
+
             <!-- Username Input -->
             <EditText
                 android:id="@+id/usernameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/user_id"
+                android:hint="@string/email"
                 android:autofillHints="00001"
                 android:inputType="text"
                 android:padding="12dp" />
@@ -42,6 +50,16 @@
                 android:inputType="textPassword"
                 android:padding="12dp" />
 
+            <!-- Phone# Input -->
+            <EditText
+                android:id="@+id/phoneEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:autofillHints="*****"
+                android:inputType="text|phone"
+                android:padding="12dp" />
+
             <!-- Role Selection Spinner -->
             <Spinner
                 android:id="@+id/roleSpinner"
@@ -53,18 +71,38 @@
                 android:padding="12dp"
                 android:entries="@array/roles_array" />
 
-            <!-- Login Button -->
-            <Button
-                android:id="@+id/loginButton"
-                android:layout_width="wrap_content"
+            <!-- Login and Create Account Buttons -->
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/login"
-                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/loginButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/login"
+                    android:background="@color/navy_blue"
+                    android:textColor="@color/white"
+                    android:padding="12dp" />
+
+                <Button
+                    android:id="@+id/createAccountButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/create_new_account"
                 android:background="@color/navy_blue"
                 android:textColor="@color/white"
-                android:padding="12dp" />
-
-
+                android:padding="12dp"/>
+            </LinearLayout>
 
         </LinearLayout>
 

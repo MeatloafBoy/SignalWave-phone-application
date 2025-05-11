@@ -2,8 +2,5 @@
 <resources>
 
     <style name="Theme.SignalWave" parent="Theme.AppCompat.Light.DarkActionBar" />
-        <item name="colorPrimaryDark" type="drawable">@color/navy_blue</item>
-        <item name="colorPrimary" type="drawable">@color/teal</item>
-        <item name="colorSecondary" type="drawable">@color/grey</item>
 
 </resources>

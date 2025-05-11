@@ -1,7 +1,8 @@
 plugins {
-    alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.android.application)
+    id ("com.google.gms.google-services")
 }
 
 android {
@@ -52,9 +53,17 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.coordinatorlayout)
-    implementation(libs.firebase.firestore)
+    implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.firestore)
+    implementation (libs.google.webrtc.v1030039)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.savedstate)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.voice.sdk)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -63,5 +72,3 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
-
-apply(plugin = "com.google.gms.google-services")

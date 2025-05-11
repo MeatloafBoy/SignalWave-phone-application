@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_grey"
     tools:context=".MainActivity">
 
     <!-- Header -->
@@ -21,7 +20,6 @@
 
     <!-- User -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_User"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/transparent"
@@ -51,7 +49,6 @@
 
     <!-- Notifications -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_bell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/transparent"

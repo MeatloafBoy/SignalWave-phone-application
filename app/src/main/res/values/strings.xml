@@ -1,39 +1,23 @@
 <resources>
     <string name="app_name">SignalWave</string>
-    <string name="_00_00">00:00</string>
-    <string name="activity">Activity</string>
     <string name="contacts">Contacts</string>
-    <string name="user_name">User name</string>
-    <string name="user_position">User position</string>
-    <string name="radio">Radio</string>
-    <string name="_1_12_25">1/12/25</string>
     <string name="microphone">Microphone</string>
     <string name="signalwave">SignalWave</string>
-    <string name="end_call">End Call</string>
-    <string name="mute">Mute</string>
-    <string name="keypad">Keypad</string>
-    <string name="hold">Hold</string>
-    <string name="_00_00_">00:00</string>
     <string name="user">User</string>
     <string name="notification_bell">notification bell</string>
     <string name="user_icon">user</string>
-    <string name="search">search</string>
-    <string name="signal">signal</string>
     <string name="phone">phone</string>
-    <string name="text">text</string>
     <string name="walkie_talkie">walkie_talkie</string>
     <string name="call">call</string>
-    <string name="app_header">App Header</string>
     <string name="message">message</string>
-    <string name="activity_date">01/22/25</string>
-    <string name="activity_duration">00:00</string>
-    <string name="activity_state">state</string>
-    <string name="user_id">User ID</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="phone_num">Phone#</string>
     <string name="message_prompt">Type a message</string>
     <string name="send">Send</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="name_hint">Name first and last</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
     <string-array name="roles_array">
         <item>Admin</item>
         <item>Employee</item>
