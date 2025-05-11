@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665836448875",
+    "project_id": "signalwave-37d9a",
+    "storage_bucket": "signalwave-37d9a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665836448875:android:1d05000ad0497eb355152e",
+        "android_client_info": {
+          "package_name": "com.example.signalwave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7qIPVGdcSMfw3XmR4FU08-gz9lep-8Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
